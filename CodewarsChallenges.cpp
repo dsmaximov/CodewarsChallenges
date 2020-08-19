@@ -1,9 +1,11 @@
 #include <iostream>
 
 int cockroach_speed(float FloatSpeed);
+size_t over_the_road(size_t address, size_t street);
 
 int main()
 {
-    int a = cockroach_speed(1.08);
+    size_t a = over_the_road(3, 5);
+    printf ("%d \n", a);
 }
 

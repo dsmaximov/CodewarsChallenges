@@ -11,9 +11,9 @@ cockroach_speed(1.08) == 30
 Note! The input is a Real number (actual type is language dependent) and is >= 0. The result should be an Integer.*/
 
 int cockroach_speed(float FloatSpeed)
+
 {
 	int IntSpeed = (FloatSpeed * 1000/36);
-
 	return IntSpeed;
 }
 

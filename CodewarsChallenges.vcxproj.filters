@@ -13,13 +13,19 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\CodewarsFunctions">
+      <UniqueIdentifier>{0229323c-beed-4148-a66f-c25b3aa46e23}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CodewarsChallenges.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="cockroach_speed.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\CodewarsFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="over_the_road.cpp">
+      <Filter>Source Files\CodewarsFunctions</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
