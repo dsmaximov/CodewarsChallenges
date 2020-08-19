@@ -13,6 +13,7 @@ Note! The input is a Real number (actual type is language dependent) and is >= 0
 int cockroach_speed(float FloatSpeed)
 {
 	int IntSpeed = (FloatSpeed * 1000/36);
+
 	return IntSpeed;
 }
 
