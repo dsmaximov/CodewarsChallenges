@@ -33,5 +33,11 @@
     <ClCompile Include="alphabet_symmetry.cpp">
       <Filter>Source Files\CodewarsFunctions</Filter>
     </ClCompile>
+    <ClCompile Include="simple_array_product.cpp">
+      <Filter>Source Files\CodewarsFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="triangular_treasure.cpp">
+      <Filter>Source Files\CodewarsFunctions</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -154,6 +154,8 @@
     <ClCompile Include="over_the_road.cpp" />
     <ClCompile Include="secret_agent_time_travel.cpp" />
     <ClCompile Include="alphabet_symmetry.cpp" />
+    <ClCompile Include="simple_array_product.cpp" />
+    <ClCompile Include="triangular_treasure.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
