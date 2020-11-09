@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <array>
 
 
 int cockroach_speed(float FloatSpeed);
@@ -8,10 +9,15 @@ int days(int date, int month, int year);
 std::vector<int> solve(std::vector<std::string> arr);
 int SAP(std::vector<std::vector<int>> v);
 int triangular(int n);
+std::array<int, 10> paint_letterboxes(int start, int end);
+std::vector<int> digits(int n);
 
 
 int main()
 {
-	std::cout << triangular(9);
+	for (auto i : digits(123))
+	{
+		std::cout << i;
+	}
 }
 

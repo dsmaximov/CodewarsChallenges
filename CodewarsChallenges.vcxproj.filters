@@ -39,5 +39,11 @@
     <ClCompile Include="triangular_treasure.cpp">
       <Filter>Source Files\CodewarsFunctions</Filter>
     </ClCompile>
+    <ClCompile Include="letterbox_paint.cpp">
+      <Filter>Source Files\CodewarsFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="all_possible_sum.cpp">
+      <Filter>Source Files\CodewarsFunctions</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

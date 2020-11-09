@@ -147,10 +147,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="all_possible_sum.cpp" />
     <ClCompile Include="cockroach_speed.cpp">
       <FileType>CppClass</FileType>
     </ClCompile>
     <ClCompile Include="CodewarsChallenges.cpp" />
+    <ClCompile Include="letterbox_paint.cpp" />
     <ClCompile Include="over_the_road.cpp" />
     <ClCompile Include="secret_agent_time_travel.cpp" />
     <ClCompile Include="alphabet_symmetry.cpp" />
