@@ -12,10 +12,13 @@ int triangular(int n);
 std::array<int, 10> paint_letterboxes(int start, int end);
 std::vector<int> digits(int n);
 std::vector<int> simple_strings(std::string s);
+std::vector<int> arrayLeaders(const std::vector<int>& numbers);
 
 int main()
 {
-	for (auto n : simple_strings("Aaaadsf90876112)"))
+
+
+	for (auto n : arrayLeaders({5, 12, 3, 5, 1}))
 	{
 		std::cout << n << ",";
 	}

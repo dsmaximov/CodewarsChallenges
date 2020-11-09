@@ -21,6 +21,16 @@ using namespace std;
 
 vector<int> arrayLeaders(const vector<int>& numbers)
 {
-    // Your Code is Here .... Enjoy !!!
-    return vector<int> {};
+	vector<int> outputVect;
+	int currentSum = 0;
+	for (auto it = numbers.begin(); it != numbers.end(); it++)
+	{
+		for (auto itSum = it + 1; itSum != numbers.end(); itSum++)
+		{
+			currentSum += *itSum;
+		}
+		if (*it > currentSum) outputVect.push_back(*it);
+		currentSum = 0;
+	}
+	return outputVect;
 }
