@@ -11,13 +11,13 @@ int SAP(std::vector<std::vector<int>> v);
 int triangular(int n);
 std::array<int, 10> paint_letterboxes(int start, int end);
 std::vector<int> digits(int n);
-
+std::vector<int> simple_strings(std::string s);
 
 int main()
 {
-	for (auto i : digits(123))
+	for (auto n : simple_strings("Aaaadsf90876112)"))
 	{
-		std::cout << i;
+		std::cout << n << ",";
 	}
 }
 

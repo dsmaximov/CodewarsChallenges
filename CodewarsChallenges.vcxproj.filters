@@ -45,5 +45,11 @@
     <ClCompile Include="all_possible_sum.cpp">
       <Filter>Source Files\CodewarsFunctions</Filter>
     </ClCompile>
+    <ClCompile Include="5a29a0898f27f2d9c9000058.cpp">
+      <Filter>Source Files\CodewarsFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="5a651865fd56cb55760000e0.cpp">
+      <Filter>Source Files\CodewarsFunctions</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
