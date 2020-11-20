@@ -17,9 +17,11 @@ unsigned int tv_remote(const std::string& word);
 int minRemove(std::vector<int> arr);
 long long queue(const std::vector<int>& queuers, int pos);
 std::string wordPattern(const std::string& word);
+std::string simple_letter_removal(const std::string& s, unsigned k);
+
 
 int main()
 {
-	std::cout<<wordPattern("Hippopotomonstrosesquippedaliophobia") <<"\n";
+	std::cout<< simple_letter_removal("abracadabra", 8) <<"\n";
 }
 

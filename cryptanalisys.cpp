@@ -22,7 +22,6 @@ std::string wordPattern(const std::string& word) {
 		currentLetter = tolower(n);
 		if (charMap[currentLetter - 'a'] > 0)
 		{
-			std::string a = std::to_string(1);
 			outVector.push_back(std::to_string(charMap[currentLetter - 'a']));
 			outVector.push_back(".");
 		}
@@ -34,7 +33,10 @@ std::string wordPattern(const std::string& word) {
 			nextLetterCode++;
 		}
 	}
-	for (auto n : outVector) outString += n;
-	outString.pop_back();
+
+	for (auto it = outVector.begin(); it != outVector.end()-1; it++)
+	{
+		outString += *it;
+	}
 	return outString;
 }

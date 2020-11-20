@@ -60,5 +60,8 @@
     <ClCompile Include="cryptanalisys.cpp">
       <Filter>Source Files\CodewarsFunctions</Filter>
     </ClCompile>
+    <ClCompile Include="simple_letter_removal.cpp">
+      <Filter>Source Files\CodewarsFunctions</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
