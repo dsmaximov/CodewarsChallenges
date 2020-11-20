@@ -147,12 +147,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="5a29a0898f27f2d9c9000058.cpp" />
-    <ClCompile Include="5a651865fd56cb55760000e0.cpp" />
+    <ClCompile Include="cryptanalisys.cpp" />
+    <ClCompile Include="order_of_characters.cpp" />
+    <ClCompile Include="cursor_on_a_screen.cpp" />
+    <ClCompile Include="leader_numbes.cpp" />
+    <ClCompile Include="ticket_queue.cpp" />
+    <ClCompile Include="sqrt_in_array.cpp" />
     <ClCompile Include="all_possible_sum.cpp" />
-    <ClCompile Include="cockroach_speed.cpp">
-      <FileType>CppClass</FileType>
-    </ClCompile>
     <ClCompile Include="CodewarsChallenges.cpp" />
     <ClCompile Include="letterbox_paint.cpp" />
     <ClCompile Include="over_the_road.cpp" />

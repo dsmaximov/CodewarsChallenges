@@ -21,9 +21,6 @@
     <ClCompile Include="CodewarsChallenges.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cockroach_speed.cpp">
-      <Filter>Source Files\CodewarsFunctions</Filter>
-    </ClCompile>
     <ClCompile Include="over_the_road.cpp">
       <Filter>Source Files\CodewarsFunctions</Filter>
     </ClCompile>
@@ -45,10 +42,22 @@
     <ClCompile Include="all_possible_sum.cpp">
       <Filter>Source Files\CodewarsFunctions</Filter>
     </ClCompile>
-    <ClCompile Include="5a29a0898f27f2d9c9000058.cpp">
+    <ClCompile Include="order_of_characters.cpp">
       <Filter>Source Files\CodewarsFunctions</Filter>
     </ClCompile>
-    <ClCompile Include="5a651865fd56cb55760000e0.cpp">
+    <ClCompile Include="cursor_on_a_screen.cpp">
+      <Filter>Source Files\CodewarsFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="leader_numbes.cpp">
+      <Filter>Source Files\CodewarsFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="ticket_queue.cpp">
+      <Filter>Source Files\CodewarsFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="sqrt_in_array.cpp">
+      <Filter>Source Files\CodewarsFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptanalisys.cpp">
       <Filter>Source Files\CodewarsFunctions</Filter>
     </ClCompile>
   </ItemGroup>

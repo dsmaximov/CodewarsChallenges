@@ -13,14 +13,13 @@ std::array<int, 10> paint_letterboxes(int start, int end);
 std::vector<int> digits(int n);
 std::vector<int> simple_strings(std::string s);
 std::vector<int> arrayLeaders(const std::vector<int>& numbers);
+unsigned int tv_remote(const std::string& word);
+int minRemove(std::vector<int> arr);
+long long queue(const std::vector<int>& queuers, int pos);
+std::string wordPattern(const std::string& word);
 
 int main()
 {
-
-
-	for (auto n : arrayLeaders({5, 12, 3, 5, 1}))
-	{
-		std::cout << n << ",";
-	}
+	std::cout<<wordPattern("Hippopotomonstrosesquippedaliophobia") <<"\n";
 }
 
