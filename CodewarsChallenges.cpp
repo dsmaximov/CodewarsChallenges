@@ -18,10 +18,11 @@ int minRemove(std::vector<int> arr);
 long long queue(const std::vector<int>& queuers, int pos);
 std::string wordPattern(const std::string& word);
 std::string simple_letter_removal(const std::string& s, unsigned k);
+std::string find_screen_height(int width, const std::string& ratio);
 
 
 int main()
 {
-	std::cout<< simple_letter_removal("abracadabra", 8) <<"\n";
+	std::cout<< find_screen_height(1024, "4:3") <<"\n";
 }
 

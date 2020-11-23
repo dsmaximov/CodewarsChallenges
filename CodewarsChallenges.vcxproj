@@ -148,6 +148,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="cryptanalisys.cpp" />
+    <ClCompile Include="find_screeen_size.cpp" />
     <ClCompile Include="order_of_characters.cpp" />
     <ClCompile Include="cursor_on_a_screen.cpp" />
     <ClCompile Include="leader_numbes.cpp" />
