@@ -19,10 +19,11 @@ long long queue(const std::vector<int>& queuers, int pos);
 std::string wordPattern(const std::string& word);
 std::string simple_letter_removal(const std::string& s, unsigned k);
 std::string find_screen_height(int width, const std::string& ratio);
+std::string communicationModule(std::string packet);
 
 
 int main()
 {
-	std::cout<< find_screen_height(1024, "4:3") <<"\n";
+	std::cout<< communicationModule("H1H10F1200120008F4F4") <<"\n";
 }
 
