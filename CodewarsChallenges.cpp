@@ -20,10 +20,11 @@ std::string wordPattern(const std::string& word);
 std::string simple_letter_removal(const std::string& s, unsigned k);
 std::string find_screen_height(int width, const std::string& ratio);
 std::string communicationModule(std::string packet);
+std::vector<int> segments(int m, const std::vector<std::pair<int, int>>& arr);
 
 
 int main()
 {
-	std::cout<< communicationModule("H1H10F1200120008F4F4") <<"\n";
+	std::cout << segments(5, { {2,2},{1,2},{5,5} })[0] <<"\n";
 }
 

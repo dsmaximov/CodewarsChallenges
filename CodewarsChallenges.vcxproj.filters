@@ -69,5 +69,8 @@
     <ClCompile Include="communication_module.cpp">
       <Filter>Source Files\CodewarsFunctions</Filter>
     </ClCompile>
+    <ClCompile Include="points_in_segments.cpp">
+      <Filter>Source Files\CodewarsFunctions</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

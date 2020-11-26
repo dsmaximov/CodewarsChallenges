@@ -153,6 +153,7 @@
     <ClCompile Include="order_of_characters.cpp" />
     <ClCompile Include="cursor_on_a_screen.cpp" />
     <ClCompile Include="leader_numbes.cpp" />
+    <ClCompile Include="points_in_segments.cpp" />
     <ClCompile Include="simple_letter_removal.cpp" />
     <ClCompile Include="ticket_queue.cpp" />
     <ClCompile Include="sqrt_in_array.cpp" />
