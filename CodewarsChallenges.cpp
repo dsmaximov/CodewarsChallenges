@@ -22,11 +22,12 @@ std::string find_screen_height(int width, const std::string& ratio);
 std::string communicationModule(std::string packet);
 std::vector<int> segments(int m, const std::vector<std::pair<int, int>>& arr);
 std::vector<int> showBits(int n);
+std::vector<std::string> number(const std::vector<std::string>& lines);
 
 
 int main()
 {
-	showBits(4);
-	//std::cout << segments(5, { {2,2},{1,2},{5,5} })[0] <<"\n";
+
+number({ {2,2},{1,2},{5,5} });
 }
 
