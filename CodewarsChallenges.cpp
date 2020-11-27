@@ -21,10 +21,12 @@ std::string simple_letter_removal(const std::string& s, unsigned k);
 std::string find_screen_height(int width, const std::string& ratio);
 std::string communicationModule(std::string packet);
 std::vector<int> segments(int m, const std::vector<std::pair<int, int>>& arr);
+std::vector<int> showBits(int n);
 
 
 int main()
 {
-	std::cout << segments(5, { {2,2},{1,2},{5,5} })[0] <<"\n";
+	showBits(4);
+	//std::cout << segments(5, { {2,2},{1,2},{5,5} })[0] <<"\n";
 }
 

@@ -147,6 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="binary_representaion_of_integer.cpp" />
     <ClCompile Include="communication_module.cpp" />
     <ClCompile Include="cryptanalisys.cpp" />
     <ClCompile Include="find_screeen_size.cpp" />
