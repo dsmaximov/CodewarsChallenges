@@ -23,11 +23,24 @@ std::string communicationModule(std::string packet);
 std::vector<int> segments(int m, const std::vector<std::pair<int, int>>& arr);
 std::vector<int> showBits(int n);
 std::vector<std::string> number(const std::vector<std::string>& lines);
+using uint = unsigned int;
+using Pos = std::pair<int, int>;
+using Board = std::vector<std::string>;
+using Result = std::pair<Pos, std::size_t>;
+Result exit_from_maze(const Board& model);
 
 
 int main()
 {
-
-number({ {2,2},{1,2},{5,5} });
+    exit_from_maze(
+        {
+              "##############",
+              "#        \\   #",
+              "*   \\        #",
+              "#            #",
+              "#   \\    /   #",
+              "##############"
+        }
+    );
 }
 
