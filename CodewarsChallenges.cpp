@@ -28,19 +28,11 @@ using Pos = std::pair<int, int>;
 using Board = std::vector<std::string>;
 using Result = std::pair<Pos, std::size_t>;
 Result exit_from_maze(const Board& model);
-
+std::string draw(std::vector<int> waves);
+std::pair<std::string, std::string> capitalize(const std::string& s);
 
 int main()
 {
-    exit_from_maze(
-        {
-              "##############",
-              "#        \\   #",
-              "*   \\        #",
-              "#            #",
-              "#   \\    /   #",
-              "##############"
-        }
-    );
+	capitalize("codewars");
 }
 

@@ -81,5 +81,11 @@
     <ClCompile Include="bouncing_beams.cpp">
       <Filter>Source Files\CodewarsFunctions</Filter>
     </ClCompile>
+    <ClCompile Include="pattern_wave.cpp">
+      <Filter>Source Files\CodewarsFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="alternate_capitalization.cpp">
+      <Filter>Source Files\CodewarsFunctions</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
