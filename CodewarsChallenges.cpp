@@ -6,7 +6,7 @@
 int cockroach_speed(float FloatSpeed);
 size_t over_the_road(size_t address, size_t street);
 int days(int date, int month, int year);
-std::vector<int> solve(std::vector<std::string> arr);
+//std::vector<int> solve(std::vector<std::string> arr);
 int SAP(std::vector<std::vector<int>> v);
 int triangular(int n);
 std::array<int, 10> paint_letterboxes(int start, int end);
@@ -30,9 +30,10 @@ using Result = std::pair<Pos, std::size_t>;
 Result exit_from_maze(const Board& model);
 std::string draw(std::vector<int> waves);
 std::pair<std::string, std::string> capitalize(const std::string& s);
+int solve(std::vector<std::string>v);
 
 int main()
 {
-	capitalize("codewars");
+	solve({"codewars", "4"});
 }
 

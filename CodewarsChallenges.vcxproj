@@ -152,6 +152,7 @@
     <ClCompile Include="bouncing_beams.cpp" />
     <ClCompile Include="communication_module.cpp" />
     <ClCompile Include="cryptanalisys.cpp" />
+    <ClCompile Include="even_and_odd_disparity.cpp" />
     <ClCompile Include="find_screeen_size.cpp" />
     <ClCompile Include="indexed_capitalization.cpp" />
     <ClCompile Include="order_of_characters.cpp" />

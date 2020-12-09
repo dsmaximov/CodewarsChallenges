@@ -90,5 +90,8 @@
     <ClCompile Include="indexed_capitalization.cpp">
       <Filter>Source Files\CodewarsFunctions</Filter>
     </ClCompile>
+    <ClCompile Include="even_and_odd_disparity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
