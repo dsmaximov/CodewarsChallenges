@@ -31,9 +31,11 @@ Result exit_from_maze(const Board& model);
 std::string draw(std::vector<int> waves);
 std::pair<std::string, std::string> capitalize(const std::string& s);
 int solve(std::vector<std::string>v);
+unsigned long long minValue(std::vector <int> values);
+std::string fix_string_case(const std::string& str);
 
 int main()
 {
-	solve({"codewars", "4"});
+	fix_string_case("coDEE");
 }
 

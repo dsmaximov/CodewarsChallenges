@@ -93,5 +93,11 @@
     <ClCompile Include="even_and_odd_disparity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="form_the_minimum.cpp">
+      <Filter>Source Files\CodewarsFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="fix_string_case.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
