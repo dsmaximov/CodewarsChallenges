@@ -33,9 +33,10 @@ std::pair<std::string, std::string> capitalize(const std::string& s);
 int solve(std::vector<std::string>v);
 unsigned long long minValue(std::vector <int> values);
 std::string fix_string_case(const std::string& str);
+std::array<int, 3> burner(int c, int h, int o);
 
 int main()
 {
-	fix_string_case("coDEE");
+	burner(45, 11, 100);
 }
 

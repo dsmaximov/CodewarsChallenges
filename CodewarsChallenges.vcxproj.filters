@@ -99,5 +99,8 @@
     <ClCompile Include="fix_string_case.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="fusion_chamber_shutdown.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

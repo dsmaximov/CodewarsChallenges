@@ -156,6 +156,7 @@
     <ClCompile Include="find_screeen_size.cpp" />
     <ClCompile Include="fix_string_case.cpp" />
     <ClCompile Include="form_the_minimum.cpp" />
+    <ClCompile Include="fusion_chamber_shutdown.cpp" />
     <ClCompile Include="indexed_capitalization.cpp" />
     <ClCompile Include="order_of_characters.cpp" />
     <ClCompile Include="cursor_on_a_screen.cpp" />
