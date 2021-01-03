@@ -34,9 +34,10 @@ int solve(std::vector<std::string>v);
 unsigned long long minValue(std::vector <int> values);
 std::string fix_string_case(const std::string& str);
 std::array<int, 3> burner(int c, int h, int o);
+std::string correct_it(std::string str);
 
 int main()
 {
-	burner(45, 11, 100);
+	correct_it("    asdf Asdfad  adfadfadf gfjdga';j'm;ladf. ;hlkghlkjbgfkajbgflkasg ");
 }
 

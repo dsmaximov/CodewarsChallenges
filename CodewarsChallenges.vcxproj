@@ -151,6 +151,7 @@
     <ClCompile Include="binary_representaion_of_integer.cpp" />
     <ClCompile Include="bouncing_beams.cpp" />
     <ClCompile Include="communication_module.cpp" />
+    <ClCompile Include="correct_my_english_1.cpp" />
     <ClCompile Include="cryptanalisys.cpp" />
     <ClCompile Include="even_and_odd_disparity.cpp" />
     <ClCompile Include="find_screeen_size.cpp" />
