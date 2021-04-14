@@ -153,6 +153,7 @@
     <ClCompile Include="communication_module.cpp" />
     <ClCompile Include="correct_my_english_1.cpp" />
     <ClCompile Include="cryptanalisys.cpp" />
+    <ClCompile Include="cuboids_volume.cpp" />
     <ClCompile Include="even_and_odd_disparity.cpp" />
     <ClCompile Include="find_screeen_size.cpp" />
     <ClCompile Include="fix_string_case.cpp" />

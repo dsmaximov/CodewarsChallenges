@@ -35,6 +35,7 @@ unsigned long long minValue(std::vector <int> values);
 std::string fix_string_case(const std::string& str);
 std::array<int, 3> burner(int c, int h, int o);
 std::string correct_it(std::string str);
+int findDifference(std::array<int, 3> a, std::array<int, 3> b);
 
 int main()
 {
